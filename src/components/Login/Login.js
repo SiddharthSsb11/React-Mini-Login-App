@@ -76,7 +76,7 @@ const Login = (props) => {
 
     // setFormIsValid(emailState.isValid && event.target.value.trim().length > 6);
   };
-
+ 
   const validateEmailHandler = () => {
     dispatchEmail({ type: 'INPUT_BLUR' });
   };
